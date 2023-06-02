@@ -69,11 +69,14 @@ const LoginPageComponent = ({ loginUserApiRequest,reduxDispatch, setReduxUserSta
               />
             </Form.Group>
 
- <Row className="pb-2">
+      <span class="d-flex justify-content-end">
+            <Row>
               <Col>
                 <Link to={""}> Forget Password? </Link>
               </Col>
             </Row>
+            </span>
+
 
 
             <Form.Group className="mb-3" controlId="formBasicCheckbox">
