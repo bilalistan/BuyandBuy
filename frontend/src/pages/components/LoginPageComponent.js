@@ -68,6 +68,14 @@ const LoginPageComponent = ({ loginUserApiRequest,reduxDispatch, setReduxUserSta
                 placeholder="Password"
               />
             </Form.Group>
+
+ <Row className="pb-2">
+              <Col>
+                <Link to={""}> Forget Password? </Link>
+              </Col>
+            </Row>
+
+
             <Form.Group className="mb-3" controlId="formBasicCheckbox">
               <Form.Check
                 name="doNotLogout"
